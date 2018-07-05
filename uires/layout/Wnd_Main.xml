@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SOUI title="截屏" width="1400" height="800" appWnd="1" wndType="main" toolWindow="1" translucent="0">
+
+<root >
+	<rectcapture pos="0,0,-0,-0" name="rectcapture" />
+		
+	<text pos="10,10" name="text_title" colorText="#FFFFFF" inset="4,2,4,2" colorBkgnd="#000000" font="face:宋体,size:12"/>
+	<window pos="10,10" size="120,120" name="lay_cursor" layout="vbox" gravity="center" margin="1" colorBorder="#000000" colorBkgnd="#000000">
+		<img size="120,90" name="img_cursor" />		
+		<text extend_top="4" name="text_rect" colorText="#FFFFFF" font="face:宋体,size:12"/>
+		<text name="text_rgb" colorText="#FFFFFF" font="face:宋体,size:12" />
+	</window>
+	<window pos="10,10" size="-1,30" name="lay_tools" layout="hbox" gravity="center" colorBkgnd="@color/nullbg">
+		<window size="2,-1" />
+		<imgbtn size="-1,-1" name="btn_rectangle" skin="btn_rectangle" tip="添加矩形"/>
+		<imgbtn size="-1,-1" name="btn_ellipse" skin="btn_ellipse" tip="添加椭圆"/>
+		<imgbtn size="-1,-1" name="btn_arrow" skin="btn_arrow" tip="添加箭头"/>
+		<imgbtn size="-1,-1" name="btn_brush" skin="btn_brush" tip="画刷工具"/>
+		<imgbtn size="-1,-1" name="btn_font" skin="btn_font" tip="添加文字"/>
+		<imgbtn size="-1,-1" name="btn_repeal" skin="btn_repeal" tip="撤销编辑"/>
+		<imgbtn size="-1,-1" name="btn_save" skin="btn_save" tip="保存"/>
+		<imgbtn size="-1,-1" name="btn_close" skin="btn_cancel" tip="退出编辑"/>
+		<imgbtn size="-1,-1" name="btn_done" skin="btn_done" tip="完成编辑"/>
+		<window size="2,-1" />
+	</window>	
+</root>
+
+</SOUI>

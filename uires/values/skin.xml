@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<skin>
+	<resetstate name="btn_done" src="image:btn_done" states="4" state0="1" state1="0" state2="3" state3="2" />
+	<resetstate name="btn_cancel" src="image:btn_cancel" states="4" state0="1" state1="0" state2="3" state3="2" />
+	<resetstate name="btn_save" src="image:btn_save" states="4" state0="1" state1="0" state2="3" state3="2" />
+	<resetstate name="btn_repeal" src="image:btn_repeal" states="4" state0="1" state1="0" state2="3" state3="2" />
+	<resetstate name="btn_font" src="image:btn_font" states="4" state0="1" state1="0" state2="3" state3="2" />
+	<resetstate name="btn_brush" src="image:btn_brush" states="4" state0="1" state1="0" state2="3" state3="2" />
+	<resetstate name="btn_arrow" src="image:btn_arrow" states="4" state0="1" state1="0" state2="3" state3="2" />
+	<resetstate name="btn_ellipse" src="image:btn_ellipse" states="4" state0="1" state1="0" state2="3" state3="2" />
+	<resetstate name="btn_rectangle" src="image:btn_rectangle" states="4" state0="1" state1="0" state2="3" state3="2" />
+</skin>
