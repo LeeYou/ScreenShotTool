@@ -18,13 +18,13 @@ source_group("Source Files" FILES ${CURRENT_SRCS})
 source_group("SoUI Resouece" FILES ${CURRENT_SOUIS})
 source_group("Resource Files" FILES ${CURRENT_RC})
 
-add_executable(DropDemo WIN32 ${CURRENT_HEADERS} ${CURRENT_SRCS} ${CURRENT_SOUIS} ${CURRENT_RC})
+add_executable(ScreenShotTool WIN32 ${CURRENT_HEADERS} ${CURRENT_SRCS} ${CURRENT_SOUIS} ${CURRENT_RC})
 
-add_dependencies(DropDemo soui-sys-resource)
-target_link_libraries(DropDemo utilities soui ${COM_LIBS})
+add_dependencies(ScreenShotTool soui-sys-resource)
+target_link_libraries(ScreenShotTool utilities soui ${COM_LIBS})
 
-set_target_properties(DropDemo PROPERTIES DEBUG_POSTFIX ${CMAKE_DEBUG_POSTFIX})
-set_target_properties (DropDemo PROPERTIES
+set_target_properties(ScreenShotTool PROPERTIES DEBUG_POSTFIX ${CMAKE_DEBUG_POSTFIX})
+set_target_properties (ScreenShotTool PROPERTIES
     FOLDER demos
 )
-cotire(DropDemo)
+cotire(ScreenShotTool)
